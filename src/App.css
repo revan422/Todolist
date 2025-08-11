@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* warna hitam untuk sisi kanan */
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #ff80bf; /* pink untuk sidebar */
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.all-tasks {
+  background-color: #ff1a8c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.date {
+  color: #ffe6f2;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #000000; /* setengah kanan hitam */
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ffe6f2;
+  color: black;
+}
+
+.input-container button {
+  background-color: #ff1a8c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222; /* gelap untuk item di kanan */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+.delete {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* warna hitam default */
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #ffffff; /* sidebar putih */
+  padding: 20px;
+  color: black; /* teks di sidebar jadi hitam */
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.all-tasks {
+  background-color: #ff1a8c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.date {
+  color: #555;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #000000; /* setengah kanan hitam */
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ffe6f2;
+  color: black;
+}
+
+.input-container button {
+  background-color: #ff1a8c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+.delete {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+.all-tasks {
+  background-color: #888; /* abu-abu */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.input-container button {
+  background-color: #888; /* abu-abu */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
